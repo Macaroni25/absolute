@@ -1,0 +1,37 @@
+/* The navigation bar */
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: green;
+    margin: 10px;
+
+}
+
+/* Main content */
+.main {
+    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+}
+
+.spacer {  /* spacer for the bottom fixed user input bar */
+    margin: 10px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.textInput {
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    font-family: Courier New, Courier, monospace;
+    background: black;
+    outline: none;
+    font-weight: bold;
+}
+}
